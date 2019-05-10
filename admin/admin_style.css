@@ -1,0 +1,262 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+b {font-weight: bold;}
+
+html{color:#000;background:#eee;}
+body{font:16px/1.5 arial,helvetica,sans-serif;text-align:center;}
+
+#page {
+    background: #fff;
+    margin: 5px auto;
+    width: 980px;
+    padding:0 20px;
+    text-align: left;
+}
+
+.header{
+    color: #000;
+    padding: 20px 0;
+}
+
+.logo{
+    float: left;
+    width: 520px;
+    font: italic 40px/1 arial,helvetica,sans-serif;
+}
+
+.header_login{
+    width: 250px;
+    float: right;
+    border: 1px solid #eee;
+    padding: 5px 10px;
+    background: #fefefe ;
+    text-align: right;
+    font-size: 14px;
+}
+
+.navigation{
+    background-color:black;
+}
+.navigation li {
+    float: left;
+}
+.navigation li a{
+    display: inline-block;
+    padding: 3px 0.5em;
+    color: #f5f5f5;
+    font-weight: bold;
+    text-decoration: none;
+}
+.navigation li a:hover,.navigation a.active{
+    background: #0cf;
+}
+
+.content {
+    margin-top: 10px;
+    background: white;
+    color: black;
+}
+.content h1{
+    line-height: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-width: 1px 0;
+    background: #eee;
+    font-size: 22px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+.categories {
+    float: left;
+    width: 200px;
+    margin:0 40px 15px 0;
+    background: #eee;
+}
+.categories h3{
+    line-height: 1;
+    padding: 10px;
+    margin-bottom: 0;
+    background: #06c;
+    color:#fff;
+}
+
+.footer {
+    text-align: center;
+    font-size: 12px;
+    padding: 10px 0;
+    margin-top: 25px;
+    border-top: 1px solid #ccc;
+}
+
+table{
+    border: gray solid 1px 0px 0px 0px;
+}
+td, th {
+    padding: 3px;
+    border: gray solid 1px;
+    vertical-align: middle;
+}
+tr:nth-child(even) {
+  background-color: lightgrey;
+}
+tr:nth-child(odd) {
+  background-color: white;
+}
+tr:first-child {
+    font-weight: bolder;
+}
+
+.mt15 {
+    margin-top: 15px;
+    
+    
+}
+.tabelapr {
+   margin-top: 15px;  
+}
+
+.slike{
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+}
+
+
+#login, #loginp{
+    border-width: 1px;
+    border-left-style: hidden;
+    border-right-style: hidden;
+ 
+}
+#cena, #image, #naziv, #opis, #adresa, #ime, #prezime, #telefon, #email, #naslov{
+    border-width: 1px 0px 0px 0px;
+    border-left-style: hidden;
+    border-right-style: hidden;
+    
+    
+}
+
+#opis{
+    width: 200px;
+    padding: 20px;
+}
+
+#opisindex {
+    margin-top: 10px;
+    margin-left: 1px;    
+    text-orientation: sideways-left;
+    padding: auto auto auto 1px;
+    
+}
+
+#btnlogin, #dodaj{
+    background-color: dodgerblue;
+    margin-left: 83px;
+    margin-top: 10px;
+    color: #fff;
+    padding: 8px 15px 5px 15px;
+    border: 0px;
+    font: 15px arial,helvetica,sans-serif;
+    
+}
+
+
+
+#novi_proizvod, #dodavanje_korisnika{
+    background-color: dodgerblue;
+    margin-left: 1px;
+    margin-top: 10px;
+    color: #fff;
+    padding: 8px 15px 5px 15px;
+    border: 0px;
+    font: 15px arial,helvetica,sans-serif;
+    
+    
+}
+
+.kupovina tr>:nth-child(5){
+ color: red;
+ font: bolder, helvetica, sans-serif;
+ font-weight: 700;
+}
+
+
+#ok{
+    background-color: dodgerblue;
+    margin-left: 1px;
+    margin-top: 10px;
+    color: #fff;
+    padding: 8px 15px 5px 15px;
+    border: 0px;
+    font: 15px arial,helvetica,sans-serif;
+   }
+
+.pretraga{
+    float: right;
+    }
+
+  
+
+
+
+
+label{
+    display: inline-block;
+    vertical-align: top;
+    width: 80px;
+}
+
+
+
+.cf:before,
+.cf:after {
+    content: " ";
+    display: table;
+}
+
+.cf:after {
+    clear: both;
+}

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Online Shop - Admin</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" type="text/css" href="admin_style.css">
+    </head>
+    <body>
+        
+        <div id="page">
+            <div class="header cf">
+                <div class="logo">Online Shop - Administracija</div>
+                <div class="header_login">
+                    <p style="text-align:right;">
+                        <b>admin</b> (Ime Prezime)
+                    </p>
+                </div>
+            </div>
+            <div class="navigation cf">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a class="active" href="kategorije.html">Kategorije</a></li>
+                    <li><a href="proizvodi.html">Proizvodi</a></li>
+                    <li><a href="kontakti.html">Kontakti</a></li>
+                    <li><a href="kontakt_stranica.html">Kontakt stranica</a></li>
+                    <li><a href="korisnici.html">Korisnici</a></li>
+                    <li><a href="kupovina.html">Kupovina</a></li>
+                    <li><a href="login.html">Login</a></li>
+                </ul>
+            </div>
+            <div class="content">
+                <h1>KATEGORIJE</h1>
+
+                <div>
+                    Dodaj kategoriju:
+                    <form class="form" action="dodaj_kategoriju.php" method="post">
+                        <label for="name">Naziv</label> <input type="text" id="name" name="name" />
+                        <input type="submit" value="dodaj" />
+                    </form>
+
+                    <table class="mt15" border="1">
+                        <tr>
+                            <th>ID</th>
+                            <th>Naziv</th>
+                            <th>Broj proizvoda</th>
+                            <th>&nbsp;</th>
+                        </tr>
+                        <tr>
+                            <td>1</td>
+                            <td>DVD</td>
+                            <td>3</td>
+                            <td><a href="obrisi_kategoriju.php" title="Obrisi kategoriju"><img src="images/icon_delete.png" /></a></td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>Knjige</td>
+                            <td>4</td>
+                            <td><a href="obrisi_kategoriju.php" title="Obrisi kategoriju"><img src="images/icon_delete.png" /></a></td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td>Racunari</td>
+                            <td>2</td>
+                            <td><a href="obrisi_kategoriju.php" title="Obrisi kategoriju"><img src="images/icon_delete.png" /></a></td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            <div class="footer">&copy; OnlineShop 2019</div>
+        </div>
+        
+    </body>
+</html>

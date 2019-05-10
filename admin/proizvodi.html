@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Online Shop - Admin</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" type="text/css" href="admin_style.css">
+    </head>
+    <body>
+        
+        <div id="page">
+            <div class="header cf">
+                <div class="logo">Online Shop - Administracija</div>
+                <div class="header_login">
+                    <p style="text-align:right;">
+                        <b>admin</b> (Ime Prezime)
+                    </p>
+                </div>
+                </div>
+            <div class="navigation cf">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="kategorije.html">Kategorije</a></li>
+                    <li><a class="active" href="proizvodi.html">Proizvodi</a></li>
+                    <li><a href="kontakti.html">Kontakti</a></li>
+                    <li><a href="kontakt_stranica.html">Kontakt stranica</a></li>
+                    <li><a href="korisnici.html">Korisnici</a></li>
+                    <li><a href="kupovina.html">Kupovina</a></li>
+                    <li><a href="login.html">Login</a></li>
+                </ul>
+            </div>
+            <div class="content">
+                <h1>PROIZVODI</h1>
+
+                <div>
+                    <a href="novi_proizvod.html"> <input type="submit" value="Novi proizvod" id="novi_proizvod"></a><br>
+                    <span class="pretraga">Pretraga:<input type="text"><input type="submit" value="ok" id="ok"></span><br><br>
+                    
+
+
+                    
+                    <table class="tabelapr" border="1">
+                        <tr>
+                            <th>ID</th>
+                            <th>Naziv</th>
+                            <th>Opis</th>
+                            <th>Slika</th>
+                            <th>Cena</th>
+                            <th>Aktivan</th>
+                            <th>Datum</th>
+                            <th>Kategorija</th>
+                            <th>&nbsp;</th>
+                        </tr>
+                        <tr>
+                            <td><a href="azuriranje_proizvoda.html">6</a></td>
+                            <td>Svemirski vojnici</td>
+                            <td>Svemirski vojnici (engl. Starship Troopers) je americki naucnofantasticni film iz 1997. zasnovan na istoimenoj knjizi Roberta A. Hajnlajna (Robert A. Heinlein). Rezirao ga je Pol Verhoven (Paul Verhoeven)</td>
+                            <td><img src="images/svemirski_vojnici.jpg" height="140"> </td>                            
+                            <td>550.00</td>                            
+                            <td>1</td>                            
+                            <td>2013-02-10 14:36:44</td>                            
+                            <td>Knjige</td>                            
+                            <td><a href="obrisi_kategoriju.php" title="Obrisi kategoriju"><img src="images/icon_delete.png" /></a></td>
+                        </tr>
+                        <tr>
+                            <td><a href="azuriranje_proizvoda.html">22</a></td>
+                            <td>Lara Croft: Tomb Raider</td>
+                            <td>Video game adventurer Lara Croft comes to a life in a movie where she races against time and villains to recover powerful ancient artifacts.</td>
+                            <td><img src="images/lara_croft.jpg" height="140"></td>
+                            <td>750.00 </td>
+                            <td>1</td>
+                            <td>2013-05-26 13:39:41 </td>
+                            <td>DVD </td>
+                            <td><a href="obrisi_kategoriju.php" title="Obrisi kategoriju"><img src="images/icon_delete.png" /></a></td>
+                        </tr>
+                        <tr>
+                            <td><a href="azuriranje_proizvoda.html">23</a></td>
+                            <td>Bjuik 8</td>
+                            <td>Pisac: Stiven King Zanrovi: naucna fantastika, horor</td>
+                            <td><img src="images/bjuik8.jpg" height="140"></td>
+                            <td>850.00</td>
+                            <td>1</td>
+                            <td>2013-10-24 02:52:09</td>
+                            <td>Knjige</td>                      
+                            <td><a href="obrisi_kategoriju.php" title="Obrisi kategoriju"><img src="images/icon_delete.png" /></a></td>
+                        </tr>
+                        <tr>
+                            <td><a href="azuriranje_proizvoda.html">24</a></td>
+                            <td>Svemirski Vojnici</td>
+                            <td>Zanrovi: Naucna fantastika, Nagradjene knjige Izdavac: Carobna knjiga</td>
+                            <td><img src="images/starship_troopers.jpg" height="140"></td>
+                            <td>788.40</td>
+                            <td>1</td>
+                            <td>2013-02-09 14:26:33</td>
+                            <td>DVD</td>
+                            <td><a href="obrisi_kategoriju.php" title="Obrisi kategoriju"><img src="images/icon_delete.png" /></td>
+                            
+                            
+                        </tr>
+                    </table>
+                        
+                        
+                  
+                </div>
+            </div>
+            <div class="footer">&copy; OnlineShop 2019</div>
+        </div>
+        
+    </body>
+</html>

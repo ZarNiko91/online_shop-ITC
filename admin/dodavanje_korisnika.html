@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Online Shop - Admin</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" type="text/css" href="admin_style.css">
+    </head>
+    <body>
+        
+        <div id="page">
+            <div class="header cf">
+                <div class="logo">Online Shop - Administracija</div>
+                <div class="header_login">
+                    <p style="text-align:right;">
+                        <b>admin</b> (Ime Prezime)
+                    </p>
+                </div>
+                </div>
+            <div class="navigation cf">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="kategorije.html">Kategorije</a></li>
+                    <li><a href="proizvodi.html">Proizvodi</a></li>
+                    <li><a href="kontakti.html">Kontakti</a></li>
+                    <li><a href="kontakt_stranica.html">Kontakt stranica</a></li>
+                    <li><a class="active" href="korisnici.html">Korisnici</a></li>
+                    <li><a href="kupovina.html">Kupovina</a></li>
+                    <li><a href="login.html">Login</a></li>
+                </ul>
+            </div>
+            <div class="content">
+                <h1>Registracija</h1>
+
+                <div>
+                    
+                    <form class="form" action="dodavanje_korisnika.php" method="post">
+                       <label for="login">Login:</label> <input type="text" id="login" name="name" /><br>
+                       <label for="loginp">Password:</label> <input type="password" id="loginp"/><br>
+                       <label for="email">Email:</label> <input type="text" id="email" name="name" /><br>
+                       <label for="ime">Ime:</label> <input type="text" id="ime" name="name" /><br>
+                       <label for="prezime">Prezime:</label> <input type="text" id="prezime" name="name" /><br>
+                       <label for="adresa">Adresa:</label> <input type="text" id="adresa" name="name" /><br>
+                       <label for="telefon">Telefon:</label> <input type="text" id="telefon" name="name" /><br>
+                       <label for="admin"> <input type="radio" name="Admin" value="" />Admin<br>
+                       <label for="korisnik"> <input type="radio" name="Admin" value="" />Korisnik<br>
+                       <input type="submit" value="dodaj" id="btnlogin">
+                    </form>
+
+                  
+                </div>
+            </div>
+            <div class="footer">&copy; OnlineShop 2019</div>
+        </div>
+        
+    </body>
+</html>

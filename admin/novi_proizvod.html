@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Online Shop - Admin</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" type="text/css" href="admin_style.css">
+    </head>
+    <body>
+        
+        <div id="page">
+            <div class="header cf">
+                <div class="logo">Online Shop - Administracija</div>
+                <div class="header_login">
+                    <p style="text-align:right;">
+                        <b>admin</b> (Ime Prezime)
+                    </p>
+                </div>
+                </div>
+            <div class="navigation cf">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="kategorije.html">Kategorije</a></li>
+                    <li><a class="active" href="proizvodi.html">Proizvodi</a></li>
+                    <li><a href="kontakti.html">Kontakti</a></li>
+                    <li><a href="kontakt_stranica.html">Kontakt stranica</a></li>
+                    <li><a href="korisnici.html">Korisnici</a></li>
+                    <li><a href="kupovina.html">Kupovina</a></li>
+                    <li><a href="login.html">Login</a></li>
+                </ul>
+            </div>
+            <div class="content">
+                <h1>NOVI PROIZVOD</h1>
+
+                <div>
+                    
+                    <form class="form" action="novi_proizvod.php" method="post">
+                        <label for="naziv">Naziv</label> <input type="text" id="naziv" name="name" /><br>
+                        <label for="opis" >Opis</label> <textarea name="message"  id="opis" rows="10" cols="20"></textarea><br>
+                        <label for="cena">Cena</label> <input type="text" id="cena"/><br>   
+                        <label for="image">Slika</label> <input type="file" name="image" id="image"><br>
+                        <label for="category">Kategorija</label> <select name="category" id="category">
+                            <option>-----</option>
+                            <option>DVD</option>
+                            <option>Knjige</option>
+                            <option>Racunari</option>
+                          </select><br>
+                        <input type="submit" value="dodaj" id="dodaj">
+                    </form>
+
+                  
+                </div>
+            </div>
+            <div class="footer">&copy; OnlineShop 2019</div>
+        </div>
+        
+    </body>
+</html>

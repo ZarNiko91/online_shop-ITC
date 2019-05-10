@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Online Shop - Admin</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" type="text/css" href="admin_style.css">
+    </head>
+    <body>
+        
+        <div id="page">
+            <div class="header cf">
+                <div class="logo">Online Shop - Administracija</div>
+                <div class="header_login">
+                    <p style="text-align:right;">
+                        <b>admin</b> (Ime Prezime)
+                    </p>
+                </div>
+            </div>
+            <div class="navigation cf">
+                <ul>
+                    <li><a class="active" href="index.html">Home</a></li>
+                    <li><a href="kategorije.html">Kategorije</a></li>
+                    <li><a href="proizvodi.html">Proizvodi</a></li>
+                    <li><a href="kontakti.html">Kontakti</a></li>
+                    <li><a href="kontakt_stranica.html">Kontakt stranica</a></li>
+                    <li><a href="korisnici.html">Korisnici</a></li>
+                    <li><a href="kupovina.html">Kupovina</a></li>
+                    <li><a href="login.html">Login</a></li>
+                </ul>
+            </div>
+            <div class="content">
+                <h1>HOME</h1>
+
+                <div>
+                    Dobro dosli u Online Shop Administraciju!
+                    <form class="form" action="index.php" method="post">
+                        <label for="naslov">Naslov:</label> <input type="text" id="naslov" name="name" value="HOME"/><br>
+                        <label for="opisindex">Opis:</label> <textarea name="message" id="opisindex" rows="20" cols="80">Dobro dosli na Online Shop!
+ Uz nas efikasan sistem prikaza i pretrage,
+ brzo i lako cete doci do zeljenog proizvoda iz nase bogate kolekcije.
+ Potrebno je svega nekoliko koraka od registracije do dostave paketa na Vasu adresu.
+ Zelimo Vam ugodnu kupovinu.</textarea> <br>
+                        
+                        <input type="submit" value="azuriraj" />
+                    </form>
+
+                    
+                </div>
+            </div>
+            <div class="footer">&copy; OnlineShop 2019</div>
+        </div>
+        
+    </body>
+</html>
